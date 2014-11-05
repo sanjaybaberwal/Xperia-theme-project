@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="somc_theme_accent_color_light">#000000</color>
+    <color name="somc_theme_accent_color_dark">#0033ff</color>
+    <color name="somc_accent_color_neutral">#0033ff</color>
+    <color name="semc_theme_illumination_color">#00ff00</color>
+</resources>

@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yellow"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="com.sonymobile.permission.RUNTIME_SKIN" />
+    <runtime-skin version="1">
+	<asset path="android.zip" target="android">
+		<laf-version-filter from="1" to="1" />
+	</asset>
+	<asset path="com.sonyericsson.uxp.zip" target="com.sonyericsson.uxp">
+		<laf-version-filter from="1" to="1" />
+	</asset>
+
+</runtime-skin>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+   <application
+		android:label="@string/semc_theme_title"
+		android:icon="@drawable/semc_theme_lockscreen_wallpaper"
+		android:allowBackup="false">
+	<uses-library android:name="com.sonymobile.runtimeskinning" />
+		<meta-data
+		android:name="com.sonymobile.runtimeskinning.core.image_wallpaper"
+		android:resource="@drawable/semc_theme_wallpaper" />
+		<meta-data
+		android:name="com.sonymobile.runtimeskinning.core.lockscreen_background"
+		android:resource="@drawable/semc_theme_lockscreen_wallpaper" />
+	</application>
+
+
+</manifest>

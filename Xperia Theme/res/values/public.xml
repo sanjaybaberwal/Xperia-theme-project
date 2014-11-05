@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="color" name="somc_theme_accent_color_light" id="0x7f020000" />
+    <public type="color" name="somc_theme_accent_color_dark" id="0x7f020001" />
+    <public type="color" name="somc_accent_color_neutral" id="0x7f020002" />
+    <public type="color" name="semc_theme_illumination_color" id="0x7f020003" />
+</resources>
